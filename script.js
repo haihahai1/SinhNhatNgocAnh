@@ -2,8 +2,8 @@
 const terminalContent = document.getElementById('terminal-content');
 
 // --- TÙY CHỈNH LỜI CHÚC CỦA BẠN TẠI ĐÂY ---
-const friendName = "TÊN BẠN CỦA BẠN"; // <-- THAY TÊN BẠN BÈ
-const age = 25; // <-- THAY SỐ TUỔI (hoặc để trống)
+const friendName = "Nguyễn Ngọc Anh nè"; // <-- THAY TÊN BẠN BÈ
+const age = 19; // <-- THAY SỐ TUỔI (hoặc để trống)
 
 const lines = [
     { text: "Khởi chạy quy trình: 'Happy_Birthday_Protocol'...", type: 'system' },
@@ -25,12 +25,12 @@ const lines = [
     { text: "   - (feature) Thêm nhiều niềm vui.", type: 'user' },
     { text: "   - (feature) Thêm nhiều thành công.", type: 'user' },
     { text: "   - (fix) Loại bỏ 100% bugs 'buồn bã'.", type: 'user' },
-    { text: "   - (refactor) Tối ưu hóa sức khỏe.", type: 'user' },
+    { text: "   - (refactor) Sớm mua được con ô tô nhá=)).", type: 'user' },
     { text: "", delay: 200 },
-    { text: "Happy coding và happy birthday!", type: 'user' },
-    { text: "From: [TÊN CỦA BẠN]", type: 'user' }, // <-- THAY TÊN CỦA BẠN
+    { text: "Happy happy và happy birthday!", type: 'user' },
+    { text: "From: [MinhHai]", type: 'user' }, // <-- THAY TÊN CỦA BẠN
     { text: "--------------------------------------------------", type: 'ascii' },
-    { text: "Quy trình kết thúc. Tự hủy tin nhắn sau... đùa thôi.", type: 'system' },
+    { text: "Quy trình kết thúc. Tự hủy tin nhắn sau...", type: 'system' },
     { text: "User $> ", type: 'prompt' } // Dấu nhắc lệnh cuối cùng
 ];
 // --- KẾT THÚC TÙY CHỈNH ---
